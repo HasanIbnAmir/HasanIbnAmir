@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA;;oEAEoE;ADApE,AAAA,UAAU,CAAC;EACT,gBAAgB,ECmCD,OAAO;EDlCtB,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "Main.scss",
+        "../_globalColor.scss"
+    ],
+    "names": [],
+    "file": "Main.css"
+}
