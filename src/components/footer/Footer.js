@@ -11,8 +11,8 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
         {emoji("Copyright © 2022 All rights reserved by ")}
-        <a href="https://github.com/antuhere">
-            AntuHere
+        <a href="https://github.com/HasanIbnAmir">
+            HasanIbnAmir
           </a>
         </p>
        

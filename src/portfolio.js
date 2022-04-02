@@ -6,7 +6,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; //
 const splashScreen = {
   enabled: true, 
   animation: splashAnimation,
-  duration: 2000
+  duration: 3000
 };
 
 
@@ -16,10 +16,10 @@ const illustration = {
 
 
 const greeting = {
-  username: "Antu Here",
-  title: "Hi all, I'm Antu",
+  username: "Amir Here",
+  title: "Hi all, I'm Amir",
   subTitle: emoji(
-    "A passionate College Student wanna be a Programmer 💻 who is now Wasting Time for learning C/C++, JavaScript, Python, ReactJS, NodeJS, Django."
+    "A passionate College Student wanna be a Programmer 💻 who is now Wasting Time for improving his skills in C/C++, JavaScript, Python, ReactJS, NodeJS, Django."
   ),
   FootersubTitle:emoji(
     "And Wasting Time is Also an Art 😉"
@@ -30,11 +30,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/AntuHere",
-  linkedin: "https://www.linkedin.com/in/md_aunto/",
-  gmail: "nasfiqul.islam532002@gmail.com",
-  facebook: "https://www.facebook.com/aunto.ab",
-  instagram: "https://www.instagram.com/md_aunto",
+  github: " https://github.com/HasanIbnAmir ",
+  linkedin: " https://www.linkedin.com/in/hasan-ibn-amir-27a648213/",
+  gmail: "hasanamir663@gmail.com",
+  facebook: "https://www.facebook.com/52HertzWhale.Toha",
+  instagram: "https://www.instagram.com/hasan_ibn_amir_/",
   display: true 
 };
 
@@ -53,6 +53,9 @@ const skillsSection = {
     ),
     emoji(
       "⚡Wanna be a Pro of Data Structure and Algorithm"
+    ),
+    emoji(
+      "⚡Bug hunting & pentesting"
     )
   ],
 
@@ -86,6 +89,10 @@ const skillsSection = {
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     }
   ],
   display: true 
@@ -97,8 +104,8 @@ const educationInfo = {
   display: true, 
   schools: [
     {
-      schoolName: "Dhaka College",
-      logo: require("./assets/images/DCLogo.png"),
+      schoolName: "BIAM Model School And College, Bogura",
+      logo: require("./assets/images/BiamLogo.jpg"),
       subHeader: "Preparing for HSC-2022 in Science",
       duration: "August 2020 - running",
     },
@@ -117,11 +124,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",
-      progressPercentage: "65%" 
+      progressPercentage: "25%" 
     },
     {
       Stack: "Backend",
-      progressPercentage: "55%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Programming",
@@ -129,7 +136,7 @@ const techStack = {
     },
     {
       Stack: "Linux",
-      progressPercentage: "45%"
+      progressPercentage: "55%"
     }
   ],
   displayCodersrank: true  
@@ -160,7 +167,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Top Projects",
-  subtitle: "SOME APPLICATIONS THAT I MADE WITH MY TEAM",
+  subtitle: "APPLICATIONS THAT I DEVELOPED WITH MY TEAM",
   projects: [
     {
       image: require("./assets/images/cloud1.png"),
@@ -176,7 +183,7 @@ const bigProjects = {
     {
       image: require("./assets/images/socialEngi.png"),
       projectName: "Social Engineering",
-      projectDesc: "A social engineering tool, used for testing purpose",
+      projectDesc: "A social engineering tool, used for pentesting purpose",
       footerLink: [
         {
           name: "Visit Website",
@@ -193,8 +200,8 @@ const bigProjects = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi just inbox me",
-  number: "+8801773890624",
-  email_address: "nasfiqul.islam532002@gmail.com",
+  number: "+8801992012727",
+  email_address: "hasanamir663@gmail.com",
   display: true 
 };
 
