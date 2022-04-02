@@ -66,6 +66,11 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              <p
+                className="greeting-text-p FootersubTitle"
+              >
+                {greeting.FootersubTitle}
+              </p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />

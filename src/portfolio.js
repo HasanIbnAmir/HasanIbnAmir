@@ -1,19 +1,17 @@
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import splashAnimation from "./assets/lottie/splashAnimation"; // 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, 
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 
@@ -128,6 +126,10 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "75%"
+    },
+    {
+      Stack: "Linux",
+      progressPercentage: "45%"
     }
   ],
   displayCodersrank: true  
@@ -150,15 +152,15 @@ const workExperiences = {
 
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
 
-// Some big projects you have worked on
+// Some big project
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME APPLICATIONS THAT I MADE WITH MY FRIEND",
+  title: "Top Projects",
+  subtitle: "SOME APPLICATIONS THAT I MADE WITH MY TEAM",
   projects: [
     {
       image: require("./assets/images/cloud1.png"),
@@ -169,22 +171,21 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://cloud-mee.herokuapp.com/"
         }
-        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/socialEngi.png"),
+      projectName: "Social Engineering",
+      projectDesc: "A social engineering tool, used for testing purpose",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://facebook-cryptic-science.herokuapp.com/"
+        }
       ]
     }
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "http://nextu.se/"
-    //     }
-    //   ]
-    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 

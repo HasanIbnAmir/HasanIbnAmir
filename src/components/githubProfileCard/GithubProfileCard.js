@@ -21,6 +21,22 @@ export default function GithubProfileCard({prof}) {
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
 
+            <div className="">
+              <a className="contact-detail" href={"tel:" + contactInfo.number}>
+              <i class="fas fa-phone"></i>
+                {contactInfo.number}
+              </a>
+              <br />
+
+              <a
+                className="contact-detail-email"
+                href={"mailto:" + contactInfo.email_address}
+              >
+                <i class="fas fa-envelope"></i>
+                {contactInfo.email_address}
+              </a>
+            </div>
+
 
             {prof.location !== null && (
               <div className="location-div">
@@ -43,21 +59,7 @@ export default function GithubProfileCard({prof}) {
               </div>
             )}
 
-            <div className="">
-              <a className="contact-detail" href={"tel:" + contactInfo.number}>
-              <i class="fas fa-phone"></i>
-                {contactInfo.number}
-              </a>
-              <br />
-
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                <i class="fas fa-envelope"></i>
-                {contactInfo.email_address}
-              </a>
-            </div>
+           
             <br />
             <SocialMedia />
           </div>
