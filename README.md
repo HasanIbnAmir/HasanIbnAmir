@@ -12,3 +12,9 @@
 8. npm run deploy
 9. git add .
 10. git push -u origin main
+
+## COntributer
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<a href="https://antuhere.github.io"><img src="https://avatars.githubusercontent.com/u/87479161?v=4" width="100px;" alt=""/><br /><sub><b>MD Antu</b></sub></a><br /><a href="https://github.com/antuhere" title="Documentation">📖</a>
