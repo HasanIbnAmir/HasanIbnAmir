@@ -13,7 +13,7 @@
 9. git add .
 10. git push -u origin main
 
-## COntributer
+## Contributer
 
 Thanks goes to this wonderful guy ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
